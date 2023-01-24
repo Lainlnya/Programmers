@@ -8,6 +8,3 @@ function solution(babbling) {
   }
   return answer;
 }
-
-console.log(solution(['aya', 'yee', 'u', 'maa', 'wyeoo']));
-console.log(solution(['ayaye', 'uuuma', 'ye', 'yemawoo', 'ayaa']));

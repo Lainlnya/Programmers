@@ -6,6 +6,3 @@ function solution(my_string, num1, num2) {
   ];
   return temp_string.join('');
 }
-
-console.log(solution('hello', 1, 2));
-console.log(solution('I love you', 3, 6));

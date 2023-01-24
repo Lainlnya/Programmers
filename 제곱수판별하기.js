@@ -12,6 +12,3 @@ function solution(n) {
       return 2;
   }
 }
-
-console.log(solution(144));
-console.log(solution(976));

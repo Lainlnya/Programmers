@@ -12,5 +12,3 @@ function solution(my_string) {
     answer += c === c.toLowerCase() ? c.toUpperCase() : c.toLowerCase();
   return answer;
 }
-
-console.log(solution('cccCCC'));

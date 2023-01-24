@@ -11,8 +11,4 @@ function solution(order) {
     }
   }
   return count;
-  //   return order.toString().match(/[369]/g).length;
 }
-
-console.log(solution(3));
-console.log(solution(29423));

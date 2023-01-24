@@ -8,5 +8,3 @@ function solution(n) {
   //   let stringNum = Array.from(String(n), (num) => Number(num));
   //   return stringNum.reduce((acc, cur) => acc + cur);
 }
-
-console.log(solution(1234));

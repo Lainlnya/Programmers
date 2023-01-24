@@ -9,6 +9,3 @@ function solution(n) {
   answer.sort((a, b) => a - b);
   return answer;
 }
-
-console.log(solution(24));
-console.log(solution(29));

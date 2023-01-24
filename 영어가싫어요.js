@@ -19,6 +19,3 @@ function solution(numbers) {
   }
   return Number(numbers);
 }
-
-console.log(solution('onetwothreefourfivesixseveneightnine'));
-console.log(solution('onefourzerosixseven'));

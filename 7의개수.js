@@ -6,6 +6,3 @@ function solution(array) {
   }
   return answer;
 }
-
-console.log(solution([7, 77, 17]));
-console.log(solution([10, 29]));

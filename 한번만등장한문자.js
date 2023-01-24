@@ -28,7 +28,3 @@ function solution(s) {
 
   // return res.sort().join('');
 }
-
-console.log(solution('abcabcadc'));
-console.log(solution('abdc'));
-console.log(solution('hello'));
