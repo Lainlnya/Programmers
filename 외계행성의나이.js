@@ -7,5 +7,3 @@ function solution(age) {
     .map((item) => change_age[item])
     .join('');
 }
-
-console.log(solution(23));

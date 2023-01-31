@@ -17,10 +17,3 @@ function solution(balls, share) {
 //     factorial(balls) / (factorial(balls - share) / factorial(share))
 //   );
 // }
-
-console.log(solution(3, 2));
-console.log(solution(5, 3));
-console.log(solution(5, 5));
-
-// n = 5, m = 3
-// 5! / 2! * 3!

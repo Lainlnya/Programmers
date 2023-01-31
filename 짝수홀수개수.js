@@ -9,6 +9,3 @@ function solution(num_list) {
 
   return [even_num, odd_num];
 }
-
-console.log(solution([1, 2, 3, 4, 5]));
-console.log(solution([1, 3, 5, 7]));

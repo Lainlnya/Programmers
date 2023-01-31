@@ -33,6 +33,3 @@ const morse = {
   '-.--': 'y',
   '--..': 'z',
 };
-
-console.log(solution('.... . .-.. .-.. ---'));
-console.log(solution('.--. -.-- - .... --- -.'));

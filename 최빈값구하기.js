@@ -17,7 +17,3 @@ function solution(array) {
     } else return -1;
   } else return frequency[0][1];
 }
-
-console.log(solution([1, 2, 3, 3, 3, 4]));
-console.log(solution([1, 1, 2, 2]));
-console.log(solution([1]));

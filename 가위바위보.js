@@ -16,8 +16,3 @@ function solution(rsp) {
   });
   return answer.join('');
 }
-
-console.log(solution('2'));
-console.log(solution('205'));
-
-// 2 -> 0, 0 -> 5, 5 -> 2

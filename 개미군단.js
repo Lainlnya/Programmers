@@ -12,6 +12,3 @@ function solution(hp) {
   }
   return answer + hp;
 }
-console.log(solution(23));
-console.log(solution(24));
-console.log(solution(999));

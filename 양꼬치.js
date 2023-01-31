@@ -7,6 +7,3 @@ function solution(n, k) {
   }
   return answer;
 }
-
-console.log(solution(10, 3));
-console.log(solution(64, 6));

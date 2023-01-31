@@ -4,6 +4,3 @@ function solution(price) {
   else if (price >= 100000) return Number((price * 0.95).toFixed());
   else return price;
 }
-
-console.log(solution(150000));
-console.log(solution(580000));

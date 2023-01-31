@@ -9,6 +9,3 @@ function solution(numer1, denom1, numer2, denom2) {
   }
   return [top_num / cross_num, bottom_num / cross_num];
 }
-
-console.log(solution(1, 2, 3, 4));
-console.log(solution(9, 2, 1, 3));

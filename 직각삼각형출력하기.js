@@ -8,5 +8,3 @@ function solution(n) {
   }
   return star;
 }
-
-console.log(solution(3));
