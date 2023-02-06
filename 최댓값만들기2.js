@@ -1,6 +1,6 @@
 function solution(numbers) {
   let answer = [];
-  console.log(numbers.sort((a, b) => Math.abs(b) - Math.abs(a)));
+  numbers.sort((a, b) => Math.abs(b) - Math.abs(a));
   for (let i = 0; i < numbers.length / 2; i++) {
     for (let j = i + 1; j < numbers.length / 2; j++) {
       answer.push(numbers[i] * numbers[j]);

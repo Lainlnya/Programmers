@@ -6,5 +6,3 @@ function solution(my_string, n) {
 
   return answer;
 }
-
-console.log(solution('hello', 3));

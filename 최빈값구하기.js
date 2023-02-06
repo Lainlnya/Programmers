@@ -7,8 +7,3 @@ function solution(array) {
     ? count_map[0][0]
     : -1;
 }
-
-console.log(solution([1, 2, 3, 3, 3, 4]));
-console.log(solution([1, 1, 2, 2, 4, 4, 4, 4, 3, 3, 3]));
-console.log(solution([1, 1, -2, -2, -2]));
-console.log(solution([-2]));
