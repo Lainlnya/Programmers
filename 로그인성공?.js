@@ -7,11 +7,11 @@ function solution(id_pw, db) {
   } else return 'fail';
 
   // 두 번째 방법
-  //   const [id, pw] = id_pw;
-  //   const new_db = new Map(db);
-  //   return new_db.has(id)
-  //     ? new_db.get(id) === pw
-  //       ? 'login'
-  //       : 'wrong pw'
-  //     : 'fail';
+  // const [id, pw] = id_pw;
+  // const new_db = new Map(db);
+  // return new_db.has(id)
+  //   ? new_db.get(id) === pw
+  //     ? 'login'
+  //     : 'wrong pw'
+  //   : 'fail';
 }
