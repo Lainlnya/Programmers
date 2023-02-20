@@ -1,14 +1,17 @@
-function solution(numbers, pick) {
-  if (pick === 1) return numbers.map((elem) => [elem]);
-
+function solution(numbers) {
   let answer = [];
-  numbers.forEach((element, index) => {
-    const smaller_combi = solution(numbers.slice(index + 1), pick - 1);
-    smaller_combi.forEach((combi) => {
-      if (!answer.includes([element] + combi)) answer.push([element] + combi);
-    });
-  });
-  return answer.sort();
-}
 
-console.log(solution([2, 1, 3, 4, 1], 2));
+  const combination = (current, start) => {
+    if (current.length === 2) {
+      const temp = current.reduce((acc, cur) => acc + cur, 0);
+      if (!answer.includes(temp)) answer.push(temp);
+      return;
+    }
+
+    for (let i = start; i < numbers.length; i++) {
+      combination([...current, numbers[i]], i + 1);
+    }
+  };
+  combination([], 0);
+  return answer.sort((a, b) => a - b);
+}
