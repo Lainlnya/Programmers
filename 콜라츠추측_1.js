@@ -8,7 +8,3 @@ function solution(num) {
   }
   return answer;
 }
-
-console.log(solution(6));
-console.log(solution(16));
-console.log(solution(626331));

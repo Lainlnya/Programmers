@@ -6,7 +6,3 @@ function solution(n, m) {
   }
   return [s, (n * m) / s];
 }
-
-console.log(solution(3, 12));
-console.log(solution(2, 5));
-console.log(solution(1254, 582));

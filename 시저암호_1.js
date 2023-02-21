@@ -14,7 +14,3 @@ function solution(s, n) {
   }
   return answer;
 }
-
-console.log(solution('AB', 1));
-console.log(solution('z', 1));
-console.log(solution('a B z', 1));
