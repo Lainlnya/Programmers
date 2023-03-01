@@ -7,6 +7,3 @@ function solution(s) {
   });
   return answer;
 }
-
-console.log(solution('banana'));
-console.log(solution('foobar'));
