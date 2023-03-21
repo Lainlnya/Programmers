@@ -1,22 +1,22 @@
 function solution(X, Y) {
-  let temp = [],
-    answer = '';
+  let answer = '';
+  X = X.split('');
+  Y = Y.split('');
 
-  for (let i = 0; i < Y.length; i++) {
-    if (X.includes(Y[i])) {
-      temp.push(Y[i]);
-    }
-  }
-  temp.sort((a, b) => b - a);
+  for (let i = 0; i < 10; i++) {
+    const num_x = X.filter((v) => Number(v) === i).length;
+    const num_y = Y.filter((v) => Number(v) === i).length;
 
-  if (temp.length === 0) {
-    answer = '-1';
-  } else if (temp[0] === '0') {
-    answer = '0';
-  } else {
-    temp.map((v) => (answer += v));
+    answer += i.toString().repeat(Math.min(num_x, num_y));
   }
-  return answer;
+
+  if (answer === '') return '-1';
+  else if (Number(answer) === 0) return '0';
+  else
+    return answer
+      .split('')
+      .sort((a, b) => Number(b) - Number(a))
+      .join('');
 }
 
 console.log(solution('100', '2345'));
